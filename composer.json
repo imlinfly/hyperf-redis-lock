@@ -1,0 +1,26 @@
+{
+  "name": "lynnfly/hyperf-redis-lock",
+  "description": "Hyperf filesystem url generator",
+  "license": "MIT",
+  "keywords": [
+    "hyperf",
+    "filesystem",
+    "url",
+    "generator"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Lynnfly\\HyperfRedisLock\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "LynnFly",
+      "email": "fly@eyabc.cn"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "hyperf/redis": "^3.0"
+  }
+}
