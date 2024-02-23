@@ -169,7 +169,7 @@ LUA;
     protected function deleteTimer(): void
     {
         if ($this->timerId) {
-            $this->getRedis()->del($this->timerId);
+            $this->timer->clear($this->timerId);
             $this->timerId = 0;
         }
     }
